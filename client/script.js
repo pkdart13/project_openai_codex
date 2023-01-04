@@ -66,6 +66,24 @@ const handleSubmit = async (e) => {
     e.preventDefault()
 
     const data = new FormData(form)
+    const mess = data.get('prompt')
+
+    function checkFortxt(mess) {
+        if (text.includes("hello") || text.includes("hi")) {
+          
+        }
+        mainfunc(e)
+      }
+      
+
+}
+
+const mainfunc = async (e) => {
+    e.preventDefault()
+
+    
+
+    const data = new FormData(form)
 
     // user's chatstripe
     chatContainer.innerHTML += chatStripe(false, data.get('prompt'))
