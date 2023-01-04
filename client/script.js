@@ -66,9 +66,9 @@ const handleSubmit = async (e) => {
     e.preventDefault()
 
     const data = new FormData(form)
-    var mess = data.get('prompt');
+    var mess = data.get('prompt').toLowerCase()
 
-        if (mess.includes("What Is Your Name") || mess.includes("who are you")) {
+        if (mess.includes("what is your name") || mess.includes("who are you")) {
           myfunc()
         }
 
