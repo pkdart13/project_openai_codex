@@ -74,7 +74,7 @@ const handleSubmit = async (e) => {
         }
 
         else{
-            mainfunc(e)
+            mainfunc()
         }
         
       }
@@ -82,8 +82,8 @@ const handleSubmit = async (e) => {
 
 }
 
-const mainfunc = async (e) => {
-    e.preventDefault()
+const mainfunc = async () => {
+    
 
     
 
