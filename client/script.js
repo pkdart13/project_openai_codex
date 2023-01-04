@@ -72,7 +72,11 @@ const handleSubmit = async (e) => {
         if (text.includes("hello") || text.includes("hi")) {
           
         }
-        mainfunc(e)
+
+        else{
+            mainfunc(e)
+        }
+        
       }
       
 
