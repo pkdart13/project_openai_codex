@@ -68,7 +68,7 @@ const handleSubmit = async (e) => {
     const data = new FormData(form)
     var mess = data.get('prompt').toLowerCase()
 
-        if (mess.includes("what is your name") || mess.includes("who are you")) {
+        if (mess.includes("how to pass exams") || mess.includes("how pass exam")) {
           myfunc()
         }
 
@@ -105,7 +105,7 @@ const myfunc = async () => {
     clearInterval(loadInterval)
     messageDiv.innerHTML = " "
 
-    const parsedData = "Hi, My Name is PKD And Iam A AI Chat Robot Made My PRANAV K DILEEP"
+    const parsedData = "Poyyi Padikada My#^@gg"
     typeText(messageDiv, parsedData)
 }
 
