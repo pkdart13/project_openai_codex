@@ -66,9 +66,9 @@ const handleSubmit = async (e) => {
     e.preventDefault()
 
     const data = new FormData(form)
-    var mess = data.get('prompt').toLowerCase()
+    var mess = data.get('prompt').toLowerCase().replace(/ /g, "");
 
-        if (mess.includes("how to pass exams") || mess.includes("how pass exam")) {
+        if (mess.includes("how to pass exams") || mess.includes("how to pass exam")) {
           myfunc()
         }
 
