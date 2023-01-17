@@ -71,6 +71,10 @@ const handleSubmit = async (e) => {
         if (mess.includes("howtopassexams") || mess.includes("howtopassexam")) {
           myfunc("Poada Pattu")
         }
+        else if (mess.includes("whatisyourname") || mess.includes("yourname"))
+        {
+          
+        }
         
 
         else{
