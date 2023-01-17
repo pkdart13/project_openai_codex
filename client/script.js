@@ -75,6 +75,10 @@ const handleSubmit = async (e) => {
         {
           myfunc("My Name Is PRANAV K DILEEP")
         }
+        else if (mess.includes("whoiskannan") || mess.includes("whoiskannapi"))
+        {
+          myfunc("Amrith Joy AI")
+        }
         
 
         else{
