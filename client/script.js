@@ -69,8 +69,9 @@ const handleSubmit = async (e) => {
     var mess = data.get('prompt').toLowerCase().replace(/ /g, "");
 
         if (mess.includes("howtopassexams") || mess.includes("howtopassexam")) {
-          myfunc()
+          myfunc("Poada Pattu")
         }
+        
 
         else{
             mainfunc()
@@ -80,7 +81,7 @@ const handleSubmit = async (e) => {
       
 
 }
-const myfunc = async () => {
+const myfunc = async (my_mess) => {
     const data = new FormData(form)
 
     // user's chatstripe
@@ -105,7 +106,7 @@ const myfunc = async () => {
     clearInterval(loadInterval)
     messageDiv.innerHTML = " "
 
-    const parsedData = "Poyyi Padikada My#^@gg"
+    const parsedData = my_mess
     typeText(messageDiv, parsedData)
 }
 
