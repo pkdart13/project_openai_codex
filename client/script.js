@@ -73,7 +73,7 @@ const handleSubmit = async (e) => {
         }
         else if (mess.includes("whatisyourname") || mess.includes("yourname"))
         {
-          
+          myfunc("My Name Is PRANAV K DILEEP")
         }
         
 
